@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ScizersAssignment-app",
+    "name": "User Directory",
     "slug": "ScizersAssignment-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lavish_dudi.ScizersAssignmentapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9e136272-a282-4bac-a111-e76c58f113b2"
+      }
     }
   }
 }
